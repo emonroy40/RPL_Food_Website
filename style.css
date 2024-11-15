@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+:root{
+    --primary_color:#f97f04;
+}
+/* header */
+.header{
+
+}
+.header .nav-link{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.header ul li a:hover{
+    color: var(--primary_color)!important;
+}
+/* bannar  */
+.bannar {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+.bannar .bannar_text {
+	background: #8080804d;
+	padding: 40px 0;
+	text-align: center;
+	border-radius: 10px;
+    margin-top: 15%;
+}
+.bannar .bannar_text .btn {
+	padding: 13px 34px;
+}
+/* Featured */
+.Featured .main_card .main_text p{
+   text-align: justify;
+}
+.Featured .main_card .main_text .btn{
+    transition: .4s;
+}
+.Featured .main_card .main_text .btn:hover{
+    background-color: var(--primary_color);
+    border: 1px solid var(--primary_color);
+}
+
+/* footer */
+.footer {
+	background: #0874081c;
+}
+.footer .icon i{
+    color: var(--primary_color);
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+/* innar */
+.innar{
+    background-image: url(image/innar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.innar .innar_text strong{
+    font-size: 22px;
+}
+.innar .innar_text a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.staff_section .flex_section strong{
+    color: var(--primary_color);
+}
+
+.about_company .right_coloum h3{
+    color: var(--primary_color);
+}
+
+.contact_section .card .main-contact h6{
+    color: var(--primary_color);
+    font-weight: 700;
+}
